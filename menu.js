@@ -212,7 +212,6 @@ const filterByProperty = (property, number, type) => {
     })
     return filteredArr
 }
-console.log(filterByProperty('price', 6, 'above'))
 /*
     Invoke the `filterByProperty` function passing
     in a value for each paramter.
@@ -221,3 +220,5 @@ console.log(filterByProperty('price', 6, 'above'))
 */
 
 //CODE HERE
+
+console.log(filterByProperty('price', 6, 'above'))
