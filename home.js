@@ -14,7 +14,7 @@
     It should have one parameter, `username`
     The function should return a string that says: 
     'Welcome back, [USERNAME]'
-    Where USERNAME is the `username` arguement sent in
+    Where USERNAME is the `username` argument sent in
 
     For example, if called with `Andrew` as the 
     argument, `greetUser` should return the string:

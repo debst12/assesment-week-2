@@ -214,7 +214,7 @@ const filterByProperty = (property, number, type) => {
 }
 /*
     Invoke the `filterByProperty` function passing
-    in a value for each paramter.
+    in a value for each parameter.
 
     You'll have to console.log to see the filtered array
 */
