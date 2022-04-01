@@ -204,13 +204,7 @@ const filteredFood = foodArr.filter(foodItem => {
 //CODE HERE
 const filterByProperty = (property, number, type) => {
     let sortedFoods = []
-    foodArr.filter(property {
-        
-    })
-
-    if (type === 'above') {
-
-    }
+    
 }
 
 /*

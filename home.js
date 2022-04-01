@@ -126,14 +126,14 @@ const deals = [
 //CODE HERE
 
 // I think this is what it's asking for? not sure if we were supposed to use a function do to it.
-// deals.forEach(item =>{
-//     if (item.title === '15% Off!') {
-//         item['title'].replace('15', '10')
-//     }
-// })
-deals[0].title.replace('15%', '10%')
+deals.forEach(item =>{
+    if (item.title === '15% Off!') {
+        item.title = '10% Off!'
+    }
+})
+// deals[0].title.replace('15%', '10%')
 
-console.log(deals[0])
+// console.log(deals[0])
 
 /*
     The restaurant is going to continue its
@@ -149,3 +149,14 @@ console.log(deals[0])
 */
 
 //CODE HERE
+deals[1]['desc'].trim()
+deals[1].desc.replace('March!', 'April!')
+
+deals.forEach(deal => {
+    deal.desc.trim()
+    if(deal.desc.includes('March!')) {
+        deal.desc.replace('March!', 'April')
+    }
+}) 
+
+console.log(deals[1])
